@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.906" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Registration to Way2automation Website" name="Successful Registration" time="14.751">
+<system-out><![CDATA[
+Given User is on the Registration page......................................passed
+When User enters random data entries for the requested fields that meet the required validation.passed
+Then User clicks submit button..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
