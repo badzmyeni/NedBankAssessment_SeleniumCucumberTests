@@ -77,7 +77,7 @@ public class RegistrationPage {
     }
     public void chooseFile(){
         WebElement selectProfilePicture = driver.findElement(By.xpath("//*[@id=\"register_form\"]/fieldset[9]/input"));
-        String filePath = "C:/Users/BandileMyeni/OneDrive - oculeit.com/Desktop/Error.jpg";
+        String filePath = "C:/Users/BandileMyeni/OneDrive - Ocule IT/Desktop/Java Testing Frameworks.gif";
         selectProfilePicture.sendKeys(filePath);
         System.out.println("File if uploaded");
     }
