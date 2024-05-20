@@ -23,23 +23,23 @@ public class RegistrationSteps {
 
     }
     @When("User enters random data entries for the requested fields that meet the required validation")
-    public void user_enters_random_data_entries_for_the_requested_fields_that_meet_the_required_validation() throws InterruptedException {
-        register.enterFirstName();
-        register.enterLastName();
+    public void user_enters_random_data_entries_for_the_requested_fields_that_meet_the_required_validation(){
+        register.enterFirstName("Bandile");
+        register.enterLastName("Myeni");
         register.selectMaritalStatus();
         register.selectHobby();
-        register.selectCountry();
-        register.selectDateOfBirth();
-        register.enterPhoneNumber();
-        register.enterUsername();
-        register.enterEmail();
-        register.chooseFile();
-        register.writeAboutYourself();
-        register.enterPassword();
-        register.enterConfirmPassword();
+        register.selectCountry("India");
+        register.selectDateOfBirth("1","1","2014");
+        register.enterPhoneNumber("0685113379");
+        register.enterUsername("badzmyeni");
+        register.enterEmail("badzmyeni@gmail.com");
+        register.chooseFile("C:/Users/BandileMyeni/OneDrive - Ocule IT/Desktop/Java Testing Frameworks.gif");
+        register.writeAboutYourself("I love myself");
+        register.enterPassword("Lwandle01$");
+        register.enterConfirmPassword("Lwandle01$");
     }
     @Then("User clicks submit button")
-    public void user_clicks_submit_button() throws InterruptedException {
+    public void user_clicks_submit_button()  {
         register.clickSubmit();
     }
 }
