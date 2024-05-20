@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="13.658" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Registration to Way2automation Website" name="Successful Registration" time="13.522">
+<testsuite name="Cucumber" time="6.308" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Registration to Way2automation Website" name="Successful Registration" time="6.18">
 <system-out><![CDATA[
 Given User is on the Registration page......................................passed
 When User enters random data entries for the requested fields that meet the required validation.passed
